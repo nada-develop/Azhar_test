@@ -49,6 +49,7 @@ class StudentController extends Controller
          <td>'.$row->student_term.'</td>
          <td>'.$row->student_result.'</td>
          <td>'.$row->student_total.'</td>
+         <td><a href="/result/'.$row->id.'" >طباعة</a></td>
         </tr>
         ';
        }
